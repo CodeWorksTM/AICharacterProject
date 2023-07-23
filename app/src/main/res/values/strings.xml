@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AICharacterProject</string>
+    <string name="app_name">AI Character</string>
 
     <string name="image_content_description">이미지 오류! -_-;;</string>
 </resources>

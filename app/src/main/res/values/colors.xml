@@ -9,8 +9,8 @@
 
     <color name="white_org">#FFFFFFFF</color>
 
-    <color name="blue_1">#3F80FF</color>
-    <color name="blue_2">#206BFF</color>
+    <color name="orange_1">#FF6B3C</color>
+    <color name="orange_2">#FF511A</color>
 
     <color name="red_1">#FF3A3A</color>
 </resources>
