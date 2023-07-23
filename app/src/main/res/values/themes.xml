@@ -17,6 +17,11 @@
         <item name="colorControlActivated">@color/blue_1</item>
     </style>
 
+    <!-- Activity default style -->
+    <style name="activityDefault" parent="TextAppearance.AppCompat">
+        <item name="android:background">@color/white_org</item>
+    </style>
+
     <!--====================================== TextView Style ======================================-->
     <style name="customTextViewColorBold" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@color/black_org</item>
@@ -28,6 +33,19 @@
     </style>
     <style name="customTextViewColorLight" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@color/black_org</item>
+        <item name="android:fontFamily">@font/esamanru_light</item>
+    </style>
+
+    <style name="customSubTextViewColorBold" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/gray_2</item>
+        <item name="android:fontFamily">@font/esamanru_bold</item>
+    </style>
+    <style name="customSubTextViewColorMedium" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/gray_2</item>
+        <item name="android:fontFamily">@font/esamanru_medium</item>
+    </style>
+    <style name="customSubTextViewColorLight" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/gray_2</item>
         <item name="android:fontFamily">@font/esamanru_light</item>
     </style>
     <!--============================================================================================-->

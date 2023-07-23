@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kro.kr.rhya_network.aicharacter_project">
 
+    <!-- Android permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
@@ -16,8 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AICharacterProject">
+
+
+        <!-- Custom splash activity -->
         <activity
-            android:name=".layout.activity.L2DViewActivity"
+            android:name=".layout.activity.ACSplashActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"
             android:exported="true">
@@ -27,6 +31,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <!-- Main Live2D activity -->
+        <activity
+            android:name=".layout.activity.L2DViewActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:exported="true">
+        </activity>
+    </application>
 </manifest>
